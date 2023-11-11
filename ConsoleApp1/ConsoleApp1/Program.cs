@@ -13,12 +13,23 @@ namespace ConsoleApp1
         {
             Console.WriteLine("异步开始!");
             //Task<int> tmp = GetAnswerTolife();
-            //Console.WriteLine(tmp.Result); 
-            Task<int> tmp = Run(() => {
-                Thread.Sleep(5000);
-                return 43;
-            });
-            Console.WriteLine(tmp.Result);
+            //Console.WriteLine(tmp.Result);
+            //
+            //Task<int> tmp = Run(() => {
+            //    Thread.Sleep(5000);
+            //    return 43;
+            //});
+
+            //延时5s后输出50
+            for(int n=0;n<1000;n++)
+            {
+                Delay(2000).GetAwaiter().OnCompleted(() =>
+                {
+                    Console.WriteLine(50);
+                });
+            }
+            Console.WriteLine("for循环结束!");
+            //Console.WriteLine(tmp.Result);
             Console.ReadLine();
         }
         static Task<int> GetAnswerTolife()
@@ -30,7 +41,7 @@ namespace ConsoleApp1
             timer.Start();
             return tcs.Task;
         }
-        static Task<TResult> Run<TResult>(Func<TResult> func)
+        static Task<TResult> Run<TResult>(Func<TResult> func) 
         {
             var tcs = new TaskCompletionSource<TResult>();
             new Thread(() =>
@@ -44,6 +55,15 @@ namespace ConsoleApp1
                     tcs.SetException(ex);
                 }
             }).Start();
+            return tcs.Task;
+        }
+
+        static Task Delay(int time)
+        {
+            var tcs=new TaskCompletionSource<object>();
+            var timer = new System.Timers.Timer(time) { AutoReset = false };
+            timer.Elapsed += delegate { timer.Dispose(); tcs.SetResult(null); };
+            timer.Start();
             return tcs.Task;
         }
     }
