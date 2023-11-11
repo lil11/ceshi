@@ -1,0 +1,7 @@
+D:\a\ab\ConsoleApp1\ConsoleApp1\bin\Debug\多线程，异步.exe.config
+D:\a\ab\ConsoleApp1\ConsoleApp1\bin\Debug\多线程，异步.exe
+D:\a\ab\ConsoleApp1\ConsoleApp1\bin\Debug\多线程，异步.pdb
+D:\a\ab\ConsoleApp1\ConsoleApp1\obj\Debug\多线程异步.csproj.AssemblyReference.cache
+D:\a\ab\ConsoleApp1\ConsoleApp1\obj\Debug\多线程异步.csproj.CoreCompileInputs.cache
+D:\a\ab\ConsoleApp1\ConsoleApp1\obj\Debug\多线程，异步.exe
+D:\a\ab\ConsoleApp1\ConsoleApp1\obj\Debug\多线程，异步.pdb

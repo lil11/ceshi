@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace 多线程异步
 {
     internal class Program
     {
@@ -57,7 +57,6 @@ namespace ConsoleApp1
             }).Start();
             return tcs.Task;
         }
-
         static Task Delay(int time)
         {
             var tcs=new TaskCompletionSource<object>();

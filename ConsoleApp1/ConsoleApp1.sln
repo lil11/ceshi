@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{03B8A7E4-719D-4161-8FC0-13705116F13D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多线程异步", "ConsoleApp1\多线程异步.csproj", "{03B8A7E4-719D-4161-8FC0-13705116F13D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
