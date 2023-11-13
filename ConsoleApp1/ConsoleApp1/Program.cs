@@ -21,15 +21,20 @@ namespace 多线程异步
             //});
 
             //延时5s后输出50
-            for(int n=0;n<1000;n++)
-            {
-                Delay(2000).GetAwaiter().OnCompleted(() =>
-                {
-                    Console.WriteLine(50);
-                });
-            }
-            Console.WriteLine("for循环结束!");
+            //for(int n=0;n<1000;n++)
+            //{
+            //    Delay(2000).GetAwaiter().OnCompleted(() =>
+            //    {
+            //        Console.WriteLine(50);
+            //    });
+            //}
+            //Console.WriteLine("for循环结束!");
             //Console.WriteLine(tmp.Result);
+
+
+            var task = PrintAnswerTolife();
+            task.GetAwaiter().GetResult();
+            Console.WriteLine("exit");
             Console.ReadLine();
         }
         static Task<int> GetAnswerTolife()
@@ -41,7 +46,7 @@ namespace 多线程异步
             timer.Start();
             return tcs.Task;
         }
-        static Task<TResult> Run<TResult>(Func<TResult> func) 
+        static Task<TResult> Run<TResult>(Func<TResult> func)
         {
             var tcs = new TaskCompletionSource<TResult>();
             new Thread(() =>
@@ -59,10 +64,24 @@ namespace 多线程异步
         }
         static Task Delay(int time)
         {
-            var tcs=new TaskCompletionSource<object>();
+            var tcs = new TaskCompletionSource<object>();
             var timer = new System.Timers.Timer(time) { AutoReset = false };
             timer.Elapsed += delegate { timer.Dispose(); tcs.SetResult(null); };
             timer.Start();
+            return tcs.Task;
+        }
+
+        static Task PrintAnswerTolife()
+        {
+            var tcs = new TaskCompletionSource<object>();
+            var awaiter = Task.Delay(3000).GetAwaiter();
+            awaiter.OnCompleted(() =>
+            {
+
+                awaiter.GetResult();
+                Console.WriteLine("20");
+                tcs.SetResult(null);
+            });
             return tcs.Task;
         }
     }
