@@ -1,0 +1,7 @@
+D:\a\ab\ConsoleApp1\Http通讯\bin\Debug\Http通讯.exe.config
+D:\a\ab\ConsoleApp1\Http通讯\bin\Debug\Http通讯.exe
+D:\a\ab\ConsoleApp1\Http通讯\bin\Debug\Http通讯.pdb
+D:\a\ab\ConsoleApp1\Http通讯\obj\Debug\Http通讯.csproj.AssemblyReference.cache
+D:\a\ab\ConsoleApp1\Http通讯\obj\Debug\Http通讯.csproj.CoreCompileInputs.cache
+D:\a\ab\ConsoleApp1\Http通讯\obj\Debug\Http通讯.exe
+D:\a\ab\ConsoleApp1\Http通讯\obj\Debug\Http通讯.pdb
