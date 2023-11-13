@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Books>
+  <Book>
+    <Name>水浒传</Name>
+  </Book>
+  <order Name="辣条" 价格="三元" />
+</Books>

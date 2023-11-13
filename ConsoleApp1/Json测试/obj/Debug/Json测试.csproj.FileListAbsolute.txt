@@ -1,0 +1,10 @@
+D:\a\ab\ConsoleApp1\Json测试\bin\Debug\Json测试.exe.config
+D:\a\ab\ConsoleApp1\Json测试\bin\Debug\Json测试.exe
+D:\a\ab\ConsoleApp1\Json测试\bin\Debug\Json测试.pdb
+D:\a\ab\ConsoleApp1\Json测试\bin\Debug\Newtonsoft.Json.dll
+D:\a\ab\ConsoleApp1\Json测试\bin\Debug\Newtonsoft.Json.xml
+D:\a\ab\ConsoleApp1\Json测试\obj\Debug\Json测试.csproj.AssemblyReference.cache
+D:\a\ab\ConsoleApp1\Json测试\obj\Debug\Json测试.csproj.CoreCompileInputs.cache
+D:\a\ab\ConsoleApp1\Json测试\obj\Debug\Json测试.csproj.CopyComplete
+D:\a\ab\ConsoleApp1\Json测试\obj\Debug\Json测试.exe
+D:\a\ab\ConsoleApp1\Json测试\obj\Debug\Json测试.pdb

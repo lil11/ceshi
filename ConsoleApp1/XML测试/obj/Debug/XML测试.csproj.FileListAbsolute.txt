@@ -1,0 +1,7 @@
+D:\a\ab\ConsoleApp1\XML测试\bin\Debug\XML测试.exe.config
+D:\a\ab\ConsoleApp1\XML测试\bin\Debug\XML测试.exe
+D:\a\ab\ConsoleApp1\XML测试\bin\Debug\XML测试.pdb
+D:\a\ab\ConsoleApp1\XML测试\obj\Debug\XML测试.csproj.AssemblyReference.cache
+D:\a\ab\ConsoleApp1\XML测试\obj\Debug\XML测试.csproj.CoreCompileInputs.cache
+D:\a\ab\ConsoleApp1\XML测试\obj\Debug\XML测试.exe
+D:\a\ab\ConsoleApp1\XML测试\obj\Debug\XML测试.pdb
