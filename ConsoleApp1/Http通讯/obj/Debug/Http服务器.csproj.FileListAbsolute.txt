@@ -1,0 +1,7 @@
+D:\a\ab\ConsoleApp1\Http通讯\bin\Debug\Http服务器.exe.config
+D:\a\ab\ConsoleApp1\Http通讯\bin\Debug\Http服务器.exe
+D:\a\ab\ConsoleApp1\Http通讯\bin\Debug\Http服务器.pdb
+D:\a\ab\ConsoleApp1\Http通讯\obj\Debug\Http服务器.csproj.AssemblyReference.cache
+D:\a\ab\ConsoleApp1\Http通讯\obj\Debug\Http服务器.csproj.CoreCompileInputs.cache
+D:\a\ab\ConsoleApp1\Http通讯\obj\Debug\Http服务器.exe
+D:\a\ab\ConsoleApp1\Http通讯\obj\Debug\Http服务器.pdb

@@ -1,0 +1,10 @@
+D:\a\ab\ConsoleApp1\Http客户端\bin\Debug\Http客户端.exe.config
+D:\a\ab\ConsoleApp1\Http客户端\bin\Debug\Http客户端.exe
+D:\a\ab\ConsoleApp1\Http客户端\bin\Debug\Http客户端.pdb
+D:\a\ab\ConsoleApp1\Http客户端\bin\Debug\Newtonsoft.Json.dll
+D:\a\ab\ConsoleApp1\Http客户端\bin\Debug\Newtonsoft.Json.xml
+D:\a\ab\ConsoleApp1\Http客户端\obj\Debug\Http客户端.csproj.AssemblyReference.cache
+D:\a\ab\ConsoleApp1\Http客户端\obj\Debug\Http客户端.csproj.CoreCompileInputs.cache
+D:\a\ab\ConsoleApp1\Http客户端\obj\Debug\Http客户端.csproj.CopyComplete
+D:\a\ab\ConsoleApp1\Http客户端\obj\Debug\Http客户端.exe
+D:\a\ab\ConsoleApp1\Http客户端\obj\Debug\Http客户端.pdb
