@@ -70,7 +70,6 @@ namespace 多线程异步
             timer.Start();
             return tcs.Task;
         }
-
         static Task PrintAnswerTolife()
         {
             var tcs = new TaskCompletionSource<object>();
