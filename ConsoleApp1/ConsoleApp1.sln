@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Http服务器", "Http通讯
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Http客户端", "Http客户端\Http客户端.csproj", "{2D71F4F0-1BB6-4842-985A-D5D6BF3F59DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPC通讯服务器", "RPC通讯服务器\RPC通讯服务器.csproj", "{CD2491AF-292D-4580-8469-921B5B841EA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPC通讯客户端", "RPC通讯客户端\RPC通讯客户端.csproj", "{AF3DA537-4D49-49C2-B181-F0FF5D243833}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{2D71F4F0-1BB6-4842-985A-D5D6BF3F59DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D71F4F0-1BB6-4842-985A-D5D6BF3F59DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D71F4F0-1BB6-4842-985A-D5D6BF3F59DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2491AF-292D-4580-8469-921B5B841EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2491AF-292D-4580-8469-921B5B841EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2491AF-292D-4580-8469-921B5B841EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2491AF-292D-4580-8469-921B5B841EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3DA537-4D49-49C2-B181-F0FF5D243833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3DA537-4D49-49C2-B181-F0FF5D243833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3DA537-4D49-49C2-B181-F0FF5D243833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3DA537-4D49-49C2-B181-F0FF5D243833}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
