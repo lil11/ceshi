@@ -52,7 +52,7 @@ namespace 测试 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/测试;component/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPF测试;component/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
