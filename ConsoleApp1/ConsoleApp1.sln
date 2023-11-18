@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPC通讯服务器", "RPC�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPC通讯客户端", "RPC通讯客户端\RPC通讯客户端.csproj", "{AF3DA537-4D49-49C2-B181-F0FF5D243833}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "测试", "测试\测试.csproj", "{CE7CFEFE-0010-4B4A-A276-6113FF9964A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{AF3DA537-4D49-49C2-B181-F0FF5D243833}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF3DA537-4D49-49C2-B181-F0FF5D243833}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF3DA537-4D49-49C2-B181-F0FF5D243833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7CFEFE-0010-4B4A-A276-6113FF9964A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7CFEFE-0010-4B4A-A276-6113FF9964A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7CFEFE-0010-4B4A-A276-6113FF9964A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7CFEFE-0010-4B4A-A276-6113FF9964A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
